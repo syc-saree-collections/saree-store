@@ -55,7 +55,7 @@ button:hover {
   background: #8b1c45;
 }
 .hero {
-  background: url('../images/poster.jpg') center/cover no-repeat;
+  background: url('../images/poster.jpeg') center/cover no-repeat;
   height: 90vh;
   position: relative;
   display: flex;
