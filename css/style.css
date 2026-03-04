@@ -54,3 +54,42 @@ button {
 button:hover {
   background: #8b1c45;
 }
+.hero {
+  background: url('../images/poster.jpg') center/cover no-repeat;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 20px;
+  margin: 10px 0 20px;
+}
+
+.shop-btn {
+  background: #b03060;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.shop-btn:hover {
+  background: #8b1c45;
+}
