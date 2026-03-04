@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Naresh Saree Store</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Naresh Saree Store</h1>
+  <a href="cart.html" class="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</a>
+</header>
+
+<section class="products">
+
+  <div class="product">
+    <img src="images/saree1.jpg" alt="Saree">
+    <h3>Kanjivaram Silk Saree</h3>
+    <p>₹2499</p>
+    <button onclick="addToCart('Kanjivaram Silk Saree', 2499)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="images/saree2.jpg" alt="Saree">
+    <h3>Banarasi Saree</h3>
+    <p>₹1999</p>
+    <button onclick="addToCart('Banarasi Saree', 1999)">Add to Cart</button>
+  </div>
+
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
